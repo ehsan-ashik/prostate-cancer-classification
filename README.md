@@ -7,20 +7,20 @@ Prostate cancer is one of the common cancer types. While some types of prostate 
 Prostate cancers that is detected early, has the best chance for successful treatment. However, the high false rate of prostate-specific antigens (PSA) may often lead to *negative prostate biopsies*, which does not definitively exclude the presence of cancer and often requires further investigation.
 
 
-# Project Target
+## Project Target
 
 * Comparing *Prostate Cancer miRNA* and *healthy control miRNA*, which might help determining the divergences among the groups.
 * Comparing *Negative Biopsy miRNA* to *healthy control miRNA*, to understand the deviation from normal miRNA in the Negative Biopsy miRNA.
 * Work on training classifiers on detecting prostate cancer and negative prostate biopsies. 
 
 
-# Applied Methods:
+## Applied Methods:
 
 * Performing dimension reduction techniques, e.g., *PCA* and *tSNE* - to understand divergences among groups in lower dimensions.
 * Performing clustering methods, e.g., *kmeans* - to see whether clusters can be generated based on the data.
 * Training classification models, using *k-NN* and *Random Forest* algorithms.
 
-# Considerations for Classification
+## Considerations for Classification
 
 * Evaluation Metric: *Accuracy*
 * Repeated cross validation - *10 fold 10 repeats each*
@@ -29,11 +29,11 @@ Prostate cancers that is detected early, has the best chance for successful trea
 * Imbalance resulation techniques, e.g., *up* and *down* sampling
 
 
-# Model Performance
+## Model Performance
 
 Best fitted trained model performed well for classification, with over *95%* accuracy. 
 
-# Project Takeaways:
+## Project Takeaways:
 
 * mRNA based classification works fairly well for spearting prostate cancer patients from negative biopsies that can improve early detection of prostate cancer, which is crucial for successful treatment. 
 
