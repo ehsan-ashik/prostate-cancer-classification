@@ -1,6 +1,6 @@
 # mRNA-based Prostate Cancer Classification
 
-In this project, I train micro RNA-based classification models to accurately identify prostate cancer. The dataset used in the project is avaiable [here](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112264). This project has been completed as part of *CSE 5717 - Data mining* course.
+In this project, I train micro RNA-based classification models to accurately identify prostate cancer. The dataset used in the project is avaiable [here](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112264). This project has been completed as part of *CSE 5713 - Data mining* course.
 
 Prostate cancer is one of the common cancer types. While some types of prostate cancer grow slowly and may not need only minimal or no treatment, some other types can be very aggressive and can grow quickly. 
 
